@@ -1,0 +1,206 @@
+/* Style Tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  } 
+
+table th {
+    background-color: #ff9800;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ccc;
+  }
+
+  table tr:nth-child(even) td {
+    background-color: #f2f2f2;
+  }
+  
+  table tr:hover td {
+    background-color: #ffedcc;
+  }
+
+  table td {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+  }
+
+  /* Style page */
+  /* Resetting default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Clean font */
+    background-color: #f7f7f7; /* Light gray background */
+    color: #333; /* Dark text color */
+    line-height: 1.6; /* Improved line height */
+    padding: 20px; /* Padding around body */
+}
+
+/* Header styling */
+header {
+    text-align: center; /* Center align text */
+    margin-bottom: 20px; /* Spacing below header */
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    font-size: 2.5em; /* Large font size for main heading */
+    color: #ff9800; /* Orange color */
+}
+
+h2 {
+    font-size: 2em; /* Font size for h2 */
+    margin: 15px 0; /* Spacing above and below */
+    color: #333; /* Dark gray color */
+}
+
+h3 {
+    font-size: 1em; /* Font size for h3 */
+    margin: 10px 0; /* Spacing above and below */
+    color: #666; /* Medium gray color */
+}
+
+h4 {
+    font-size: .50em; /* Font size for h4 */
+    margin: 10px 0; /* Spacing above and below */
+    color: #777; /* Lighter gray color */
+}
+
+span {
+    font-size: .85em; /* Font size for h4 */
+    margin: 10px 0; /* Spacing above and below */
+    color: #b60f0f; /* Lighter gray color */
+    font-family: 'Arial', sans-serif; /* Clean font */
+    padding: 20px; /* Padding around span */
+}
+
+/* Section styling */
+section {
+    margin-bottom: 30px; /* Spacing between sections */
+    background: white; /* White background for sections */
+    padding: 20px; /* Padding inside sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Input and button styling */
+.input-group {
+    margin-bottom: 20px; /* Spacing between input groups */
+}
+
+label {
+    display: block; /* Block display for label */
+    margin-bottom: 5px; /* Spacing below label */
+    color: #555; /* Dark gray for labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+input[type="password"] {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ff9800; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+/* Input focus effect */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"],
+input[type="password"]:focus {
+    border-color: #ff9800; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Button styling */
+input[type=submit] {
+    padding: 10px 15px; /* Padding for the button */
+    background-color: #ff9800; /* Orange color */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 13px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+/* Button hover effect */
+input[type=submit]:hover {
+    background-color: #e68a00; /* Darker shade on hover */
+}
+
+/* Span highlight styling */
+.highlight {
+    background-color: #ff9800; /* Orange background for highlighted text */
+    color: white; /* White text color */
+    padding: 2px 4px; /* Padding around highlighted text */
+    border-radius: 3px; /* Rounded corners */
+}
+
+/* Footer styling */
+footer {
+    text-align: center; /* Centered text */
+    margin-top: 30px; /* Spacing above footer */
+    color: #555; /* Dark gray text color */
+}
+
+a {
+    color: #040404f2; /* Primary link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make text bold */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+a:hover {
+    color: #050505; /* Change color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+a:visited {
+    color: #060606; /* Color for visited links */
+}
+
+/*date style*/
+.date-container {
+    margin: 20px 0; /* Margin for spacing */
+    display: flex;
+    justify-content: center; /* Center the input */
+}
+
+input[type="date"] {
+    padding: 10px; /* Padding inside the input */
+    border: 1px solid #ff9800; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+    width: 100%; /* Full width */
+}
+
+input[type="date"]:focus {
+    border-color: #e68a00; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
